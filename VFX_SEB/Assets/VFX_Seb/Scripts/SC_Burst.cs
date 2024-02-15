@@ -45,6 +45,7 @@ public class SC_Burst : MonoBehaviour
         if(Physics.Raycast(ray, out hit, Mathf.Infinity))
         {
             transform.position = new Vector3(hit.point.x, startPos.y, hit.point.z);
+            Debug.Log("hello");
         }
     }
 }
