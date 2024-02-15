@@ -43,8 +43,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _DistortScale: 0.1
-    - _DistortSpeed: 2.55
-    - _Divide: 1
+    - _DistortSpeed: 5.61
+    - _Divide: 0.97
     - _GradientEdge1: 0
     - _GradientEdge2: 1
     - _QueueControl: 0
@@ -52,7 +52,8 @@ Material:
     m_Colors:
     - _ColorEnd: {r: 0, g: 4, b: 1.1621304, a: 0}
     - _ColorStart: {r: 0, g: 4, b: 1.1621304, a: 0}
-    - _TrailSpeed: {r: -0.5, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 4.65, g: 3, b: 0, a: 0}
+    - _TrailSpeed: {r: -1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3070431357778458997
 MonoBehaviour:
