@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_GreenTrailCircle
-  m_Shader: {fileID: -6465566751694194690, guid: 9b433a8d273c249428c2f72ab35fdb98,
+  m_Name: M_GreenTrailCircle 1
+  m_Shader: {fileID: -6465566751694194690, guid: de7f0bcd08bcb7b45bf7cf040fc1815c,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 820da9016a7086342a279c2442db7014, type: 3}
+        m_Texture: {fileID: 2800000, guid: 90969aec44ab21845816c4ec549bdbef, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -50,10 +50,10 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _ColorEnd: {r: 0, g: 1.4980391, b: 0.43522915, a: 0}
-    - _ColorStart: {r: 0, g: 2.1185474, b: 0.615507, a: 0}
-    - _Tiling: {r: 4.65, g: 3, b: 0, a: 0}
-    - _TrailSpeed: {r: -1, g: 0, b: 0, a: 0}
+    - _ColorEnd: {r: 0, g: 0.038204376, b: 0.025186857, a: 1}
+    - _ColorStart: {r: 0, g: 0.03773582, b: 0.025262795, a: 1}
+    - _Tiling: {r: 2.92, g: 2.46, b: 0, a: 0}
+    - _TrailSpeed: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3070431357778458997
 MonoBehaviour:

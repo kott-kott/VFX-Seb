@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8933466718028015203
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_GreenTrailCircle
-  m_Shader: {fileID: -6465566751694194690, guid: 9b433a8d273c249428c2f72ab35fdb98,
+  m_Name: M_DeformedCircle
+  m_Shader: {fileID: -6465566751694194690, guid: ccb5ee73c3b74c14c871ae1476e9db43,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,8 +37,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 820da9016a7086342a279c2442db7014, type: 3}
+    - _Maintex:
+        m_Texture: {fileID: 2800000, guid: 2ec0d95ce0aead74d896fb128e456276, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -42,29 +55,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DistortScale: 0.1
-    - _DistortSpeed: 5.61
-    - _Divide: 0.97
-    - _GradientEdge1: 0
-    - _GradientEdge2: 1
+    - _CircleBordureEdge1: 0.4
+    - _CircleBordureEdge2: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RayCount: 5
     m_Colors:
-    - _ColorEnd: {r: 0, g: 1.4980391, b: 0.43522915, a: 0}
-    - _ColorStart: {r: 0, g: 2.1185474, b: 0.615507, a: 0}
-    - _Tiling: {r: 4.65, g: 3, b: 0, a: 0}
-    - _TrailSpeed: {r: -1, g: 0, b: 0, a: 0}
+    - _RayTint: {r: 0, g: 8, b: 2.69726, a: 1}
+    - _TimeSpeed: {r: 0, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &3070431357778458997
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
