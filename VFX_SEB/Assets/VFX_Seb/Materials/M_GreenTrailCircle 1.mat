@@ -50,9 +50,9 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _ColorEnd: {r: 0, g: 0.038204376, b: 0.025186857, a: 1}
-    - _ColorStart: {r: 0, g: 0.03773582, b: 0.025262795, a: 1}
-    - _Tiling: {r: 2.92, g: 2.46, b: 0, a: 0}
+    - _ColorEnd: {r: 0, g: 0.09433961, b: 0.05732027, a: 1}
+    - _ColorStart: {r: 0, g: 0.09411766, b: 0.058823533, a: 1}
+    - _Tiling: {r: 2.5, g: 2.54, b: 0, a: 0}
     - _TrailSpeed: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3070431357778458997
