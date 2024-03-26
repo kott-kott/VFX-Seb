@@ -42,6 +42,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _ALPHA: 1
     - _AlphaEdge1: 0.19
     - _AlphaEdge2: 0.49
     - _AlphaVoronoi1: -0.4
